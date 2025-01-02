@@ -1,0 +1,50 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Tailwind CSS
+/node_modules
+coverage
+cli
+lib
+peers
+example
+.vscode
+.DS_Store
+.parcel-cache
+tailwind.config.js
+index.html
+yarn.lock
+yarn-error.log
+types/generated/*.d.ts
+.turbo
+isolate*.log
+/src/corePluginList.js
+/tests/evaluate-tailwind-functions.test.html
+
+# Next.js
+next_modules/
+public/static/
+pages/_app.js
+pages/_document.js
